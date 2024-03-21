@@ -63,7 +63,7 @@ const InfoArticles = () => {
   };
 
   return (
-    <CollapsibleContainer title="Info Articles">
+    <CollapsibleContainer title="Info Articles (Live)">
       
       <button
         onClick={handleCreateClick}
