@@ -1,19 +1,10 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "dir",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "predeploy": [
-      "npm run build"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   },
   "emulators": {
